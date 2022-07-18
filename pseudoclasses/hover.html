@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Hover</title>
+        <meta charset="utf-8">
+        <style>
+            div:hover{
+                color:rgba(68, 68, 215, 0.892); /*quando passar o mouse em cima o texto vai ficar desta cor*/
+            }
+            div > p{
+                display:none; /*significa que quando passar com o mouse em cima o paragrafo que estiver dentro da div não irá aparecer*/
+            }
+            div:hover > p{
+                display: block; /*significa que só quando passar o mouse em cima ira aparecer*/
+                color:white;
+                background-color:rgba(48, 48, 222, 0.622);
+                width:300px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Exemplo de hover</h1>
+        <p>Passe o mouse sobre o texto abaixo</p>
+        <div>
+            Passe o mouse aqui
+            <p>O TEMPO TODO...</p>
+        </div>
+
+    </body>
+</html>

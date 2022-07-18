@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Novo hover</title>
+    <style>
+        div:hover{
+            color:darkturquoise; /*quando passar o mouse em cima o texto vai ficar desta cor*/
+        }
+        div > p{
+            display: none;
+        }
+        div:hover > p{ /*aqui vai estilizar apenas o paragrafo dentro do hover/div*/
+            display:block;
+            background-color: rgb(255, 255, 73);
+            color:rgb(169, 107, 107);
+            width:300px;
+        
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>Rafaela</h1>
+    <h1>Trabalhando com hover</h1>
+    <div>
+            Passe o mouse aqui
+        <p>A mais linda da face da terra</p>
+    </div>
+    
+</body>
+</html>
